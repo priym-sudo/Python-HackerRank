@@ -1,0 +1,4 @@
+stamp=set()
+for i in range(int(raw_input())):
+    stamp.add(raw_input().strip())
+print len(stamp)
